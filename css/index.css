@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+    justify-items: center;
+}
+.container{
+    background-image: url('road.jpeg');
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.appName{
+    font-size: 4rem;
+    padding-top: 5rem;
+
+}
+.counter{
+    font-size: 5rem;
+    padding:3rem 0rem;
+}
+button{
+    font-size: 2rem;
+    border:none;
+    border-radius: 5px;
+    padding:15px 35px;
+    color:#fff;
+    margin:10px 0px;
+    width:15rem;
+}
+.btnIncrement{
+    background-color: brown;
+}
+.btnSave{
+    background-color: green;
+}
+.prev{
+    color:#fff;
+    font-size: 1.5rem;;
+}
